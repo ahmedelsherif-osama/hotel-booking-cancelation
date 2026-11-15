@@ -21,6 +21,8 @@ Download the dataset from [Kaggle - Hotel Booking Demand](https://www.kaggle.com
 
 Place the CSV file in the project root directory.
 
+**Note:** The dataset is also uploaded to the data folder.
+
 ## Project Structure
 
 ```text
@@ -41,8 +43,8 @@ Place the CSV file in the project root directory.
 Clone the repository:
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/ahmedelsherif-osama/hotel-booking-cancelation.git
+cd hotel-booking-cancelation
 ```
 
 Create and activate a virtual environment:
