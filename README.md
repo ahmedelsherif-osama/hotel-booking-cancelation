@@ -268,9 +268,11 @@ The container listens on the port provided by the `PORT` environment variable, d
 
 **Deployment platform:** Render
 
-**Live API URL:** To be added after deployment.
+**Live API:** https://hotel-booking-cancelation.onrender.com
+- [API documentation (Swagger)](https://hotel-booking-cancelation.onrender.com/docs)
+- [Health check](https://hotel-booking-cancelation.onrender.com/health)
 
-The deployed service will expose the same prediction endpoints as the local Dockerized application.
+The deployed service exposes the same prediction endpoints as the local Dockerized application.
 
 ## Technologies
 
