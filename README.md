@@ -19,9 +19,7 @@ No-show reservations are excluded from the analysis.
 
 Download the dataset from [Kaggle - Hotel Booking Demand](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand).
 
-Place the CSV file in the project root directory.
-
-**Note:** The dataset is also uploaded to the data folder.
+Place `hotel_bookings.csv` inside the `data/` directory.
 
 ## Project Structure
 
@@ -38,6 +36,24 @@ Place the CSV file in the project root directory.
 └── README.md
 ```
 
+## Prerequisites
+
+- Python 3.10 or newer
+- pip
+- Python `venv` module
+
+Check whether Python and pip are installed:
+
+```bash
+python --version
+python -m pip --version
+```
+
+If Python is not installed, download it from python.org
+
+The `venv` module is included with most standard Python installations. 
+
+
 ## Installation
 
 Clone the repository:
@@ -50,7 +66,7 @@ cd hotel-booking-cancelation
 Create and activate a virtual environment:
 
 ```bash
-python -m venv .venv
+python -m venv venv
 source .venv/bin/activate
 ```
 
